@@ -5,12 +5,12 @@ description = ""
 authors = ["Costa Huang <costa.huang@outlook.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.7, <3.10"
 gym = { git = "https://github.com/rodrigodelazcano/gym.git", rev = "3848df8" }
 torch = "^1.10.2"
 tensorboard = "^2.8.0"
 wandb = "^0.12.11"
-stable-baselines3 = "1.1.0"
+dm-control = "^0.0.425341097"
 
 [tool.poetry.dev-dependencies]
 
