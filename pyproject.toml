@@ -6,11 +6,13 @@ authors = ["Costa Huang <costa.huang@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7, <3.10"
-gym = { git = "https://github.com/rodrigodelazcano/gym.git", rev = "3848df8" }
+gym = { git = "https://github.com/rodrigodelazcano/gym.git", rev = "b6892c2" }
 torch = "^1.10.2"
 tensorboard = "^2.8.0"
 wandb = "^0.12.11"
 dm-control = "^0.0.425341097"
+mujoco-py = "^2.1.2"
+mujoco = "^2.1.3"
 
 [tool.poetry.dev-dependencies]
 
