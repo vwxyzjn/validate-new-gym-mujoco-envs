@@ -6,7 +6,7 @@ authors = ["Costa Huang <costa.huang@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7, <3.10"
-gym = { git = "https://github.com/rodrigodelazcano/gym.git", rev = "a20dc21" }
+gym = { git = "https://github.com/rodrigodelazcano/gym.git", rev = "0120576" }
 torch = "^1.10.2"
 tensorboard = "^2.8.0"
 wandb = "^0.12.11"

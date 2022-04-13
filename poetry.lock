@@ -236,22 +236,22 @@ numpy = ">=1.18.0"
 
 [package.extras]
 accept-rom-license = ["autorom[accept-rom-license] (>=0.4.2,<0.5.0)"]
-all = ["mujoco (==2.1.5)", "imageio (>=2.14.1)", "pygame (==2.1.0)", "box2d-py (==2.3.5)", "lz4 (>=3.1.0)", "opencv-python (>=3.0)", "ale-py (>=0.7.4,<0.8.0)", "scipy (>=1.4.1)", "mujoco-py (>=2.1,<2.2)"]
+all = ["mujoco (==2.1.5)", "imageio (>=2.14.1)", "pygame (==2.1.0)", "scipy (>=1.4.1)", "box2d-py (==2.3.5)", "mujoco-py (>=2.1,<2.2)", "ale-py (>=0.7.4,<0.8.0)", "lz4 (>=3.1.0)", "opencv-python (>=3.0)"]
 atari = ["ale-py (>=0.7.4,<0.8.0)"]
 box2d = ["box2d-py (==2.3.5)", "pygame (==2.1.0)"]
 classic_control = ["pygame (==2.1.0)"]
 mujoco = ["mujoco (==2.1.5)", "imageio (>=2.14.1)"]
 mujoco_py = ["mujoco-py (>=2.1,<2.2)"]
-noatari = ["mujoco (==2.1.5)", "imageio (>=2.14.1)", "pygame (==2.1.0)", "box2d-py (==2.3.5)", "lz4 (>=3.1.0)", "opencv-python (>=3.0)", "scipy (>=1.4.1)", "mujoco-py (>=2.1,<2.2)"]
-nomujoco = ["pygame (==2.1.0)", "lz4 (>=3.1.0)", "opencv-python (>=3.0)", "scipy (>=1.4.1)", "box2d-py (==2.3.5)"]
+noatari = ["mujoco (==2.1.5)", "imageio (>=2.14.1)", "pygame (==2.1.0)", "scipy (>=1.4.1)", "box2d-py (==2.3.5)", "mujoco-py (>=2.1,<2.2)", "lz4 (>=3.1.0)", "opencv-python (>=3.0)"]
+nomujoco = ["lz4 (>=3.1.0)", "opencv-python (>=3.0)", "box2d-py (==2.3.5)", "pygame (==2.1.0)", "scipy (>=1.4.1)"]
 other = ["lz4 (>=3.1.0)", "opencv-python (>=3.0)"]
 toy_text = ["pygame (==2.1.0)", "scipy (>=1.4.1)"]
 
 [package.source]
 type = "git"
 url = "https://github.com/rodrigodelazcano/gym.git"
-reference = "a20dc21"
-resolved_reference = "a20dc21fd6d46253e194ee329e7da1a4aeebbe63"
+reference = "0120576"
+resolved_reference = "01205763815cb36750c546d112018d1ab77cbaf9"
 
 [[package]]
 name = "gym-notices"
@@ -779,7 +779,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7, <3.10"
-content-hash = "f9533b301b974da41c93804a253e4663a57976875641932f2bbd423e9e692419"
+content-hash = "69d8a83387e514da50b483f7f976f1eb1e0f3b75daaca9f7da97427b601db0f6"
 
 [metadata.files]
 absl-py = [
